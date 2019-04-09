@@ -5,7 +5,7 @@ Como usar o fxLayout
 
 ```npm install @angular/flex-layout @angular/cdk```
 
-2. Fazer o import do módulo FlexLaout no projeto. Você pode fazer isso no **app/core/core.module.ts** 
+2. Fazer o import do módulo FlexLayoutModule no projeto. Você pode fazer isso no **app/core/core.module.ts**
 ```import {FlexLayoutModule} from '@angular/flex-layout';
 
 @NgModule({
