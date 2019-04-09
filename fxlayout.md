@@ -18,8 +18,13 @@ Como usar o fxLayout
 
 ```
 
-3. Colocar no template do componente o código html
+3. Colocar no template do componente o código html **(o parametro style é só para destacar cada div)**
 
 ```
-
+<div fxLayout="column" fxFill>
+  <div fxLayout fxFlex>
+    <div class="one" fxFlex="20" fxLayoutAlign="center center" style="background-color: aliceblue;">lado com 20%</div>
+    <div class="two" fxFlex="80" fxLayoutAlign="center center" style="background-color: antiquewhite;">lado com 80%</div>
+  </div>
+</div>
 ```
